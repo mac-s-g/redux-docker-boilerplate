@@ -1,6 +1,6 @@
-# React Docker Boilerplate
+# Redux Docker Boilerplate
 
-This project includes an `init.sh` script that automates creation of a React Component project using docker.
+This project includes an `init.sh` script that automates setup of a Redux application developed with docker.
 
 When you run the `init.sh` script, you will be prompted for the following items:
 
@@ -16,8 +16,8 @@ When you run the `init.sh` script, you will be prompted for the following items:
 ## Project Initialization
 ### Example: "Test Project"
 ```
->>>me: ~/react-docker-boilerplate$ ./init.sh
-React Docker Boilerplate
+>>>me: ~/redux-docker-boilerplate$ ./init.sh
+Redux Docker Boilerplate
 ------------------------
 
 Project Name:
@@ -58,7 +58,7 @@ To run dev server, copy and run these commands:
 Then navigate to http://localhost:3000 in your web browser
 ```
 ### Default Browser Output
-![alt text](https://github.com/mac-s-g/react-docker-boilerplate/blob/master/docs/default-index.png?raw=true)
+![alt text](https://github.com/mac-s-g/redux-docker-boilerplate/blob/master/docs/default-index.png?raw=true)
 
 ## Help
 ### Permission Errors
