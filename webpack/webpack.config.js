@@ -15,7 +15,7 @@ const config = {
   output: {
     path: PATHS.build,
     filename: 'main.js',
-    library: 'github-help-wanted',
+    library: 'BOILERPLATE-PROJECT-NAME',
     libraryTarget: 'umd'
   },
   plugins: [
