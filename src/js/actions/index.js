@@ -1,11 +1,6 @@
-import fetch from 'isomorphic-fetch'
+//centralize action exports
 
-/*
-export const EXAMPLE = 'EXAMPLE'
-
-export const exampleEvent = payload => ({
-  type: EXAMPLE,
-  payload: payload
-})
-*/
-
+// export {
+//   ACTION_NAME,
+//   actionMethod
+// } from './ActionFile
