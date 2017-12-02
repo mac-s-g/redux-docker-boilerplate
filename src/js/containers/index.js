@@ -21,7 +21,7 @@ const mapDispatchToProps = dispatch => ({
 })
 
 const mapStateToProps = state => ({
-  location: state.location
+  ...state.router
 })
 
 const index = (props) => (
