@@ -11,7 +11,6 @@ import {
 
 import history from './../store/history'
 
-import 'semantic-ui-css/semantic.min.css'
 import '../../style/scss/global.scss'
 
 
