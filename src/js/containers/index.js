@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "./../components/layout/Main"
+import Layout from "./../components/Layout/Main"
 import { Provider, connect } from "react-redux"
 import { ConnectedRouter, push } from "react-router-redux"
 
