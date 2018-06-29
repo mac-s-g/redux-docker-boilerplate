@@ -1,11 +1,9 @@
-import {
-  //action
-} from './../actions'
+import //action
+"./../actions"
 
 let default_state = {
   example: true
 }
-
 
 const exampleReducer = (state = default_state, action) => {
   switch (action.type) {

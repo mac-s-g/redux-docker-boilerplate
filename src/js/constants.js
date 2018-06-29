@@ -4,4 +4,4 @@ const constants = {
   }
 }
 
-export {constants as constants}
+export { constants }

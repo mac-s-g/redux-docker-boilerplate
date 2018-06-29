@@ -92,6 +92,11 @@ echo "directory created: ./../$safe_name"
 echo
 echo "To run dev server, copy and run these commands:"
 echo ">>> cd ./../$safe_name"
+echo ">>> npm install --save-dev"
+echo ">>> npm run dev"
+echo
+echo "To run the app in a docker container:"
+echo ">>> cd ./../$safe_name"
 echo ">>> ./docker/dev-server.sh"
 echo
 echo "Then navigate to http://localhost:$browser_port in your web browser"

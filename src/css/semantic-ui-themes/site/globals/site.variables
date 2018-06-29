@@ -1,0 +1,31 @@
+/*******************************
+         Site Settings
+*******************************/
+
+/*-------------------
+       Fonts
+--------------------*/
+
+@fontName        : 'Roboto';
+@headerFont      : @fontName;
+@pageFont        : @fontName;
+@googleFontSizes : '100,300,400,500,700';
+
+/*-------------------
+        Page
+--------------------*/
+
+@textColor : @mineShaft;
+
+/*-------------------
+  Conversica Colors
+--------------------*/
+
+@alabaster:  #f9f9f9;
+@alto:       #e0e0e0;
+@cerulean:   #009fe0;
+@foam:       #f0f9fd;
+@frenchPass: #b4e9fb;
+@mako:       #424c52;
+@mineShaft:  #333333;
+@wildSand:   #f6f6f6;

@@ -9,18 +9,15 @@ if they are intended to affect the development build
 "use strict"
 
 //promise polyfill for fetch api
-import 'babel-polyfill'
+import "babel-polyfill"
 
 //import React & ReactDOM for browser rendering
-import React from 'react'
-import {render} from "react-dom"
+import React from "react"
+import { render } from "react-dom"
 
-import Index from './containers/'
-import configureStore from './store'
+import Index from "./containers/"
+import configureStore from "./store"
 
 const Store = configureStore()
 
-render(
-    <Index store={Store} />,
-    document.getElementById('app-container')
-)
+render(<Index store={Store} />, document.getElementById("app-container"))

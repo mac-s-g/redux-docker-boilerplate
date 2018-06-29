@@ -1,21 +1,14 @@
-import React from 'react'
-import Layout from './../components/layout/Main'
-import {
-  Provider,
-  connect
-} from 'react-redux'
-import {
-  ConnectedRouter,
-  push
-} from 'react-router-redux'
+import React from "react"
+import Layout from "./../components/layout/Main"
+import { Provider, connect } from "react-redux"
+import { ConnectedRouter, push } from "react-router-redux"
 
-import history from './../store/history'
+import history from "./../store/history"
 
-import '../../style/scss/global.scss'
-
+import "semantic-ui-less/semantic.less"
 
 const mapDispatchToProps = dispatch => ({
-  navigateTo: (location) => {
+  navigateTo: location => {
     dispatch(push(location))
   }
 })
@@ -24,7 +17,7 @@ const mapStateToProps = state => ({
   ...state.router
 })
 
-const index = (props) => (
+const index = props => (
   <Provider store={props.store}>
     <ConnectedRouter history={history}>
       <Layout {...props} />
