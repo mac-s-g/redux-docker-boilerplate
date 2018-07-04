@@ -11,5 +11,5 @@ ADD . /react
 WORKDIR /react
 
 EXPOSE BOILERPLATE-PORT
-ENTRYPOINT ["/react/entrypoints/build.sh"]
+ENTRYPOINT ["/react/docker/entrypoints/build.sh"]
 
