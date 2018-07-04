@@ -1,3 +1,3 @@
 export const project_info = {
-  name: "transition-selection"
+  name: "BOILERPLATE-PROJECT-NAME"
 }
