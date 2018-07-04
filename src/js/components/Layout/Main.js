@@ -1,9 +1,7 @@
 import React from "react"
 import Styled from "styled-components"
 
-import { constants } from "./../../constants"
-
-const { project_info } = constants
+import { project_info } from "./../../constants"
 
 const Container = Styled.div`
   font-family: 'arial';
