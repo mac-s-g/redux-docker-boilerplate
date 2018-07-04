@@ -15,10 +15,10 @@
         Page
 --------------------*/
 
-@textColor : @mineShaft;
+/* @textColor : @exampleColor; */
 
 /*-------------------
   Colors
 --------------------*/
 
-@exampleColor:  #f9f9f9;
+/* @exampleColor:  #f9f9f9; */
