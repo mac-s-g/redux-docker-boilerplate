@@ -73,15 +73,15 @@
       "webpack --config webpack/webpack.config.js -p --display-error-details --progress --optimize-minimize",
     "prebuild": "mkdir -p .nyc_output && npm run test",
     "dev":
-      "webpack-dev-server --config webpack/webpack.config-dev.js --mode development --open",
+      "webpack-dev-server --config ./webpack/webpack.config-dev.js --mode development --open",
     "dev:local": "cross-env NODE_ENV=local npm run dev",
     "pretest": "mkdir -p .nyc_output && npm run lint && npm run test:coverage",
     "test": "cross-env NODE_ENV=test npm run test:unit",
     "test:coverage":
       "cross-env NODE_ENV=test nyc check-coverage --lines 0 --per-file && echo 'Coverage passed'",
     "test:unit":
-      "cross-env NODE_ENV=test nyc --reporter=html nyc mocha test/**/*-test.js",
-    "test:watch": "cross-env NODE_ENV=test nyc mocha -w test/**/*-test.js",
+      "cross-env NODE_ENV=test nyc --reporter=html nyc mocha ./test/**/*-test.js",
+    "test:watch": "cross-env NODE_ENV=test nyc mocha -w ./test/**/*-test.js",
     "lint":
       "eslint . --format node_modules/eslint-friendly-formatter && echo 'Linting passed'",
     "prelint":

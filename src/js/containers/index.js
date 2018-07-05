@@ -25,7 +25,4 @@ const index = props => (
   </Provider>
 )
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(index)
+export default connect(mapStateToProps, mapDispatchToProps)(index)
